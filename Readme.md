@@ -1,19 +1,29 @@
 Judul : Aplikasi Pencatat Pengeluaran
-Nama Angoota : 
+
+Nama Anggota : 
+
 	- Wesley Yando Tantra (03082170008)
+	
 	- Martin Tricia Tanzil (03082170001)
+	
 	- Vincent (03082170002)
 
 Isi Tugas : (user stories)
 
 Input : 
+
 	- Tanggal pengeluaran
+	
 	- Aktivitas pengeluaran (membeli, menyewa, cicilan, dsb)
+	
 	- Pengeluaran per aktivitas
+	
 	- Gaji per bulan
+	
 	- List benda/jasa yang tidak menjadi prioritas
 	
 Proses :
+
 	1. user dapat menginput tanggal pengeluaran.
 		1.1 Jika tidak ada tanggal yang diinput, akan dianggap tanggal hari ini.
 		
@@ -50,6 +60,9 @@ Proses :
 		10.1 rata-rata ini dapat digunakan sebagai patokan untuk pengeluaran bulan depan.
 
 Output :
+
 	- List rincian tanggal, aktivitas, dan harga pengeluaran dalam bentuk tabel.
+	
 	- List total pengeluaran sesuai kategori yang dipilih (semua, barang saja, jasa saja, dsb)
+	
 	- Peringatan sistem sewaktu-waktu jika pengeluaran sudah melewati gaji/batas pengeluaran yang telah ditetapkan.
