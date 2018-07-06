@@ -10,17 +10,17 @@ namespace UTSTeamCollab
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("x = 3; N = 10; Hasil : "+ SubX(3,10));
-            Console.WriteLine("x = 1; N = 10; Hasil : " + SubX(1, 10));
-            Console.WriteLine("x = 0; N = 10; Hasil : " + SubX(0, 10));
-            Console.WriteLine("x = -1; N = 10; Hasil : " + SubX(-1, 10));
-            Console.WriteLine("x = -1; N = -10; Hasil : " + SubX(-1, -10));
-            Console.WriteLine("x = -15; N = -1000; Hasil : " + SubX(-15, -1000));
-            Console.WriteLine("x = -1; N = -1; Hasil : " + SubX(-1,-1));
-            Console.WriteLine("x = -15; N = -1001; Hasil : " + SubX(-15, -1001));
+            Console.WriteLine("x = 3; N = 10; Hasil : "+ SumX(3,10));
+            Console.WriteLine("x = 1; N = 10; Hasil : " + SumX(1, 10));
+            Console.WriteLine("x = 0; N = 10; Hasil : " + SumX(0, 10));
+            Console.WriteLine("x = -1; N = 10; Hasil : " + SumX(-1, 10));
+            Console.WriteLine("x = -1; N = -10; Hasil : " + SumX(-1, -10));
+            Console.WriteLine("x = -15; N = -1000; Hasil : " + SumX(-15, -1000));
+            Console.WriteLine("x = -1; N = -1; Hasil : " + SumX(-1,-1));
+            Console.WriteLine("x = -15; N = -1001; Hasil : " + SumX(-15, -1001));
         }
 
-        public static int SubX(int x, int N)
+        public static int SumX(int x, int N)
         {
             int hasil = 0;
             if (x < -1000 || x > 1000 || N < -1000 || N > 1000)
